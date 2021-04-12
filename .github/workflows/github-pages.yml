@@ -2,8 +2,8 @@ name: GitHub Pages Deploy
 
 on:
   push:
-    branch:
-      - master
+    branches:
+      - main
 
 
 jobs:
