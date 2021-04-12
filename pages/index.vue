@@ -15,7 +15,8 @@
           <YouTube video="https://www.youtube.com/embed/rFL5dRfGEs4" />
         </div>
         <div class="Footer">
-          歡迎具<span class="color:ray weight:bold">設計專長</span>和<span class="color:ray weight:bold">資訊專長</span>的你加入我們光的行列
+          <a id="join" href="https://rich.yda.gov.tw/rich/#/job/detail/JB113029" target="_blank">手刀報名</a>
+          <p>歡迎具<span class="color:ray weight:bold">設計專長</span>和<span class="color:ray weight:bold">資訊專長</span>的你加入我們光的行列</p>
         </div>
       </div>
     </section>
@@ -32,7 +33,7 @@
         </li>
         <li>
           <h3>我們怎麼做？</h3>
-        <p>RAY 5.0 將透過教育部青年發展署「大專生公部門見習計畫」招募 20 名具有使用者經驗、服務設計和網頁系統開發相關背景的大專院校在學學生，與機關同仁一起改造政府網站的數位服務體驗。除了原則上兩週一次的實體見面協作外，本見習大多數時間由小組自行安排，同學可透過線上討論或組內自行約定實體見面工作，PDIS也會架設 IM 平台讓大家線上即時討論協作。</p>
+          <p>RAY 5.0 將透過教育部青年發展署「大專生公部門見習計畫」招募 20 名具有使用者經驗、服務設計和網頁系統開發相關背景的大專院校在學學生，與機關同仁一起改造政府網站的數位服務體驗。除了原則上兩週一次的實體見面協作外，本見習大多數時間由小組自行安排，同學可透過線上討論或組內自行約定實體見面工作，PDIS也會架設 IM 平台讓大家線上即時討論協作。</p>
         </li>
         <li>
           <h3>結束以後？</h3>
@@ -53,8 +54,9 @@
         <h3>我不是大學生，也可以報名嗎？</h3>
         <p>這次的見習機會來自教育部青年發展署的「大專生公部門見習計畫」，所以僅限於大專院校的大學生和研究生參與（8月底、9月初的成果發表會當日，仍需具備在校生身份）。我們歡迎任何人持續提供對於政府網站的所有意見。</p>
         <h3>我還有別的打工，可以參加這次見習嗎？</h3>
-        <p>本見習需要細緻的跨領域溝通和高度小組協作，且時程相當緊湊，其中包含使用者訪談、組內會議、個人實作和定期到台北進行實體見面會，見習時數共計200小時，建議有興趣的同學「審慎」評估自身暑期時間安排。
-        <h3>我要具備什麼條件才能報名呢？</h3>
+        <p>
+          本見習需要細緻的跨領域溝通和高度小組協作，且時程相當緊湊，其中包含使用者訪談、組內會議、個人實作和定期到台北進行實體見面會，見習時數共計200小時，建議有興趣的同學「審慎」評估自身暑期時間安排。
+        </p><h3>我要具備什麼條件才能報名呢？</h3>
         <p>希望是具有使用者研究（User reserach )、服務設計（Service Design）、網頁系統開發（Web Development）、使用者介面（UI/User Interface）、使用者體驗（UX/User Experience）以上任一專長或相關科系之學生，惟具網頁系統開發（Web Development）專長之同學須對於使用者介面或體驗設計（UI/UX）敏感度佳且有興趣。</p>
         <p>報名時請附上作品集或任何可以線上展示專案的連結，包括（但不限於）Behance、Figma、Skecth Resource、Dribbble、GitHub/GitLab Repository、個人網站</p>
         <h3>為什麼會找見習生來體檢政府網站數位服務？</h3>
@@ -62,7 +64,7 @@
         <h3>我要到行政院上班嗎？</h3>
         <p>不用，這個見習計畫主要以線上協作進行，原則上每兩周舉辦一次小型實體聚會，見習結束後舉行成果發表會。</p>
         <h3>我要怎麼和 PDIS 的人工作？</h3>
-        <p>無論何時何地，你都可以透過線上平台討論、共筆處理報告文件。我們會架設專屬的 IM 軟體提供線上提問、討論，所有互動紀錄都能留存回溯。</p>     
+        <p>無論何時何地，你都可以透過線上平台討論、共筆處理報告文件。我們會架設專屬的 IM 軟體提供線上提問、討論，所有互動紀錄都能留存回溯。</p>
         <h3>遠距見習要怎麼計算工時？</h3>
         <p>我們會請各組在不同階段記錄成果，並以此為依據計算工時，詳細內容會在報到時說明。</p>
         <h3>我可以從這次見習中學到什麼？</h3>
@@ -164,7 +166,7 @@ export default {
           time: '2021-08-31',
           label: 'PDIS 內部成果發表會',
           text: 'PDIS 公共數位創新空間小組'
-        },
+        }
       ]
     }
   },
@@ -304,6 +306,21 @@ a:hover {
 #recruit > section > h2 {
   font-size: 2rem;
   text-align: center;
+}
+
+a#join {
+  display: block;
+  margin: .5em auto 1em auto;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--color-ray);
+  padding: .5rem 2rem;
+  width: max-content;
+  border-radius: 20px;
+  border-color: var(--color-ray);
+  border-style: solid;
+  font-size: 1.25rem;
+  line-height: 1.2;
 }
 
 /** ---------------------Intro--------------------- */
