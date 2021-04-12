@@ -12,7 +12,7 @@
           <span>RAY 5.0 - Rescue Action by Youth .gov 2021</span>
         </div>
         <div class="video">
-          <YouTube video="https://www.youtube.com/embed/rFL5dRfGEs4" />
+          <YouTube video="https://www.youtube.com/embed/7jOEAuK_xxA" />
         </div>
         <div class="Footer">
           <a id="join" href="https://rich.yda.gov.tw/rich/#/job/detail/JB113029" target="_blank">手刀報名</a>
