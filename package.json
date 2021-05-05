@@ -1,12 +1,12 @@
 {
-  "name": "ray2020-achievement",
+  "name": "ray2021-recruit",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "gen-comment-meta": "node build/fetchComments.js 2> static/comment_meta.json",
     "gen-project-meta": "node build/fetchProjects.js 2> static/project_meta.json",
-    "dev": "npm run gen-comment-meta && npm run gen-project-meta && nuxt",
-    "build": "npm run gen-comment-meta && npm run gen-project-meta && nuxt build",
+    "dev": "nuxt",
+    "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
@@ -14,13 +14,12 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.8.1",
-    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/axios": "^5.13.1",
     "bootstrap-vue": "^2.17.3",
     "cheerio": "^1.0.0-rc.3",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.5",
-    "nuxt-social-meta": "0.0.5",
-    "spreadsheet-to-json": "^1.3.3"
+    "nuxt": "^2.15.4",
+    "nuxt-social-meta": "0.0.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
