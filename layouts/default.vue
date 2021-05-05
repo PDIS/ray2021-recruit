@@ -26,6 +26,7 @@ html {
 
   --color-ray: rgb(238, 96, 71);
   --color-ray-alpha: rgba(238, 96, 71, .74);
+  --color-gray: rgb(150, 150, 150);
 }
 
 @media screen and (max-width: 767px) {

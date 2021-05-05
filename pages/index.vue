@@ -15,8 +15,8 @@
           <YouTube video="https://www.youtube.com/embed/7jOEAuK_xxA" />
         </div>
         <div class="Footer">
-          <a id="join" href="https://rich.yda.gov.tw/rich/#/job/detail/JB113029" target="_blank">手刀報名</a>
-          <p>歡迎具<span class="color:ray weight:bold">設計專長</span>和<span class="color:ray weight:bold">資訊專長</span>的你加入我們光的行列</p>
+          <a id="join" target="_blank">報名截止</a>
+          <p>我們將於 <span class="color:ray weight:bold">5/10 前</span>寄出 <span class="color:ray weight:bold">面試通知信</span>，記得要去收信喔！</p>
         </div>
       </div>
     </section>
@@ -313,11 +313,11 @@ a#join {
   margin: .5em auto 1em auto;
   font-weight: 700;
   color: #fff;
-  background-color: var(--color-ray);
+  background-color: var(--color-gray);
   padding: .5rem 2rem;
   width: max-content;
   border-radius: 20px;
-  border-color: var(--color-ray);
+  border-color: var(--color-gray);
   border-style: solid;
   font-size: 1.25rem;
   line-height: 1.2;
