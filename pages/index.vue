@@ -16,7 +16,7 @@
         </div>
         <div class="Footer">
           <a id="join" target="_blank">報名截止</a>
-          <p>我們將於 <span class="color:ray weight:bold">5/10 前</span>寄出 <span class="color:ray weight:bold">面試通知信</span>，記得要去收信喔！</p>
+          <p>我們將於 <span class="color:ray weight:bold">5/10 起</span>陸續寄出 <span class="color:ray weight:bold">面試通知信</span>，記得要去收信喔！</p>
         </div>
       </div>
     </section>
@@ -143,7 +143,7 @@ export default {
           text: '青年署 - 「大專學生公部門見習計畫」'
         },
         {
-          time: '2021-05-10 前',
+          time: '2021-05-10',
           label: '寄送面試通知',
           text: 'PDIS 公共數位創新空間小組'
         },
