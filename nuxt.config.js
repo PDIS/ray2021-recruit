@@ -51,7 +51,7 @@ export default {
       'nuxt-social-meta',
       {
         url: 'https://ray.pdis.nat.gov.tw',
-        title: 'Rescue Action by Youth .gov 4.0',
+        title: 'Rescue Action by Youth .gov 5.0',
         site_name: 'Rescue Action by Youth .gov',
         description: '一場改造公部門網站的熱血行動！',
         img: 'https://ray.pdis.nat.gov.tw/repo-social-preivew-crop.jpg',
