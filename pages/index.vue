@@ -144,7 +144,7 @@ export default {
         },
         {
           time: '2021-05-10',
-          label: '寄送面試通知',
+          label: '陸續寄送面試通知',
           text: 'PDIS 公共數位創新空間小組'
         },
         {
