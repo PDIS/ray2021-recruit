@@ -24,11 +24,19 @@
             學長姐心得
           </b-nav-item>
           <b-nav-item-dropdown text="專案成果" right>
-            <b-dropdown-item href="/2020">RAY 4 成果展示</b-dropdown-item>
-            <b-dropdown-item href="//ray2019.pdis.nat.gov.tw" target="_blank">RAY 3 成果展示</b-dropdown-item>
-            <b-dropdown-item href="//talk.pdis.nat.gov.tw/tags/已檢查" target="_blank">RAY 2 專案紀錄</b-dropdown-item>
-            <b-dropdown-item href="//ray2017.pdis.nat.gov.tw/" target="_blank">RAY 1 專案紀錄</b-dropdown-item>
-        </b-nav-item-dropdown>
+            <b-dropdown-item href="/2020">
+              RAY 4 成果展示
+            </b-dropdown-item>
+            <b-dropdown-item href="//ray2019.pdis.nat.gov.tw" target="_blank">
+              RAY 3 成果展示
+            </b-dropdown-item>
+            <b-dropdown-item href="//talk.pdis.nat.gov.tw/tags/已檢查" target="_blank">
+              RAY 2 專案紀錄
+            </b-dropdown-item>
+            <b-dropdown-item href="//ray2017.pdis.nat.gov.tw/" target="_blank">
+              RAY 1 專案紀錄
+            </b-dropdown-item>
+          </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
