@@ -71,6 +71,22 @@
         <Timeline :list="schedules" />
       </div>
     </section>
+    <section id="matriculate">
+      <h2>RAY 5.0 錄取名單</h2>
+      <ul>
+        <template v-for="(name, index) in admitted">
+          <li :key="index">
+            {{ name }}
+          </li>
+        </template>
+      </ul>
+    </section>
+    <section id="register-notice">
+      <h2>報到注意事項</h2>
+      <div class="wrapper">
+        <p>本次見習將依疫情預留調整空間，請錄取同學保持通信暢通，俾利隨時掌握更新訊息。</p>
+      </div>
+    </section>
     <section id="faq">
       <h2>FAQ</h2>
       <div class="wrapper">
@@ -125,7 +141,7 @@
       </div>
     </section>
     <section id="comment" class="container">
-      <h2>見習心得</h2>
+      <h2>RAY 4.0 見習心得</h2>
       <div class="title">
         <h3>「見習完了，學長姐們都在想什麼？」</h3>
       </div>
@@ -199,7 +215,7 @@ export default {
         },
         {
           time: '2021-06-05~',
-          label: '錄取名單公佈（實際日期依照青年署作業爲準）',
+          label: '青年署公布錄取名單公佈',
           text: '青年署 - 「大專學生公部門見習計畫」'
         },
         {
@@ -212,6 +228,24 @@ export default {
           label: 'PDIS 內部成果發表會',
           text: 'PDIS 公共數位創新空間小組'
         }
+      ],
+      admitted: ['郭O宗',
+        '林O寧',
+        '林O謙',
+        '葉O蕙',
+        '李O儀',
+        '林O秀',
+        '楊O曄',
+        '洪O吟',
+        '張O堯',
+        '姚O均',
+        '黃O群',
+        '邱O辰',
+        '焦O綾',
+        '林O晴',
+        '翁O嘉',
+        '周O如',
+        '陳O宇'
       ]
     }
   },
@@ -407,6 +441,31 @@ a#join {
   #intro > ul {
     grid-template-columns: 1fr;
   }
+}
+
+/** -----------------MATRICULATE----------------- */
+
+#matriculate > ul {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 1.5rem;
+  gap: 1em;
+}
+
+#matriculate > ul > li {
+  text-align: center;
+}
+
+/** ---------------REGISTER-NOTICE---------------- */
+#register-notice > .wrapper {
+  max-width: min(768px, 80vw);
+  margin: 2.5em auto;
+}
+
+#register-notice p {
+  font-weight: 700;
 }
 
 /** -------------------SCHEDULE------------------- */
